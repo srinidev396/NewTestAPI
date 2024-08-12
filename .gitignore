@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/FusionApiClient/obj
+/.vs/FusionWebApi/FileContentIndex
+/FusionApiClient/Properties/PublishProfiles
+/packages
+/Test_Client/obj
+/WebAPI/Properties/PublishProfiles
+/WebAPI/obj
+/.vs/FusionWebApi/v17
+/WebAPI/bin/Debug/net7.0
+/.vs
+/Test_Client/bin/Debug/net6.0
+/WebAPI/bin/Release/net7.0
+/WebAPI/FusionWebApi.csproj.user
+/WebAPI/bin/Debug/net8.0
+/WebAPI/bin/Release/net8.0
