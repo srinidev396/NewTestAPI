@@ -87,7 +87,7 @@ stages:
         package: '$(Pipeline.Workspace)/drop'
 
 - stage: AutomationTestCasesOnQA
-  displayName: "Run API Smoke test on QA-WebApp"
+  displayName: "AutomationTestCasesOnQA"
   jobs:
     - job: RunSmokeTest
       steps:
