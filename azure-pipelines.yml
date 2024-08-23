@@ -86,7 +86,7 @@ stages:
         WebAppName: 'webapp-apiqa-cc-fusionapi-001'
         package: '$(Pipeline.Workspace)/drop'
 
-- stage: TestCase
+- stage: AutomationTestCasesOnQA
   displayName: "Run API Smoke test on QA-WebApp"
   jobs:
     - job: RunSmokeTest
